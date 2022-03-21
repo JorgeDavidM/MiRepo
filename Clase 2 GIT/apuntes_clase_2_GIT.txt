@@ -1,0 +1,21 @@
+git init, iniciar repositorio
+git status, revisar y confirmar si hay cambios pendientes para cargar al repositorio
+git add, agrega los cambios pendientes
+git rm, hace un remove del commit.
+git commit -m, sube el ultimo cambio al repositorio. (con comillas dobles pone un comentario sobre el commit)
+git branch, crea una rama.
+git branch -b (mas el nombre),  crea la rama y hace el switch hacia la rama creada.
+git checkout (mas el nombre), permite cambiar entre ramas para hacer los cambios donde necesito
+git merge, mezcla los cambios de una rama hacia la rama master.
+git remote -v, nos conecta a la nube GitHub. Tambien nos muestra la lista de links donde estamos conectados.
+git remote origin (mas la url), nos conecta al repositorio en la nube.
+git clone, nos baja la rama main del proyecto. Si queremos bajar otra debemos hacer un checkout.
+git push origin, sube los cambios a la rama en la nube.
+git pull origin, sube los cambios a la nube.
+git pull request, pregunta a un intermediario si se puede hacer un merge sobre el cambio efectuado. El merge lo hace el owner de la rama.
+
+
+Reto::::: crear rep en gitHUB, clonarlo al equipo local, configurar usuarios y credenciales mediante consola de git.
+Realizar todos los comandos. adjuntar captura de pantalla con la ejecucion de cada comando, adjuntar enlace del repositorio creado.
+Tener dos ramas una master y otra, la master debe tener dos archivos y se debe hacer un rebase interactivo hacia la otra rama. 
+
